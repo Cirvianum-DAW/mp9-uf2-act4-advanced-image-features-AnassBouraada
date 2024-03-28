@@ -1,10 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="css/styles.css" />
-  </head>
-  <body></body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Gallery with Lightbox</title>
+  <link href="/css/lightbox.min.css" rel="stylesheet" />
+  <style>
+    /* Estil per a la galeria d'imatges */
+    .image-gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      grid-gap: 10px;
+      margin: 20px;
+    }
+
+    .image-gallery img {
+      width: 100%;
+      height: auto;
+    }
+  </style>
+
+</head>
+<body>
+
+<h1>Image Gallery with Lightbox</h1>
+
+<div class="image-gallery">
+  <a class="example-image-link" sty href="imatges/platja.jpeg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="imatges/platja.jpeg" alt=""/></a>
+  <a href="imatges/roca.webp" data-lightbox="example-set" data-title="Or press the right arrow on your keyboard."><img src="imatges/roca.webp" alt="" /></a>
+  <a href="imatges/programador-1200.jpg" data-lightbox="example-set" data-title="The next image in the set is preloaded as you're viewing."><img src="imatges/programador-1200.jpg" alt="" /></a>
+</div>
+
+
+<script src="/js/lightbox-plus-jquery.min.js"></script>
+</body>
 </html>

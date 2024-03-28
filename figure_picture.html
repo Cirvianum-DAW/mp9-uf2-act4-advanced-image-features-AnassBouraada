@@ -1,9 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body></body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Figure Elements</title>
+  <style>
+    /* Estils per a la imatge */
+    .image-container {
+      width: 300px;
+      margin: 0 auto;
+    }
+
+    .image-container img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+
+    /* Estils per a la llegenda */
+    .caption {
+      text-align: center;
+      font-style: italic;
+      margin-top: 10px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    p {
+      max-width: 600px;
+      margin: 0 auto;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Elements Figure i Figcaption</h1>
+
+<figure class="image-container">
+  <picture>
+    <source media="(max-width: 600px)" srcset="imatges/roca.avif">
+    <source media="(max-width: 1000px)" srcset="imatges/platja.jpeg">
+    <img src="imatges/foc.jpg" alt="Picture">
+  </picture>
+  <figcaption class="caption">Una imatge bonica</figcaption>
+</figure>
+
+<p>L'element <code>&lt;figure&gt;</code> s'utilitza per agrupar contingut rellevant, com ara imatges, gràfics, diagrammes, codi, etc., juntament amb el peu de lletra relacionat, que es proporciona mitjançant l'element <code>&lt;figcaption&gt;</code>. Aquesta estructura permet als lectors de pàgines web, comprendre millor la relació entre la imatge i la seva descripció. Així doncs, <code>&lt;figure&gt;</code> i <code>&lt;figcaption&gt;</code> són útils per proporcionar context i informació addicional sobre elements visuals a la pàgina web.</p>
+
+</body>
 </html>
