@@ -1,11 +1,12 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/aAekfEl5)
+
 # Advanced Image Features in HTML
 
 **Exercise 1: Basic Image Insertion**
 
 _Instructions:_
 
-1. Create an HTML file named `basic_image.html`.
+1. Create an HTML file named `index.html`.
 2. Find an image online (ensure it's freely usable and respects copyrights).
 3. Insert the image into the HTML file using the `<img>` element.
 4. Set the `src` attribute to the image file's URL.
@@ -19,7 +20,7 @@ _Instructions:_
 
 _Instructions:_
 
-1. Expand the `basic_image.html` file.
+1. Expand the `index.html` file.
 2. Choose two images in modern formats (e.g., WEBP, AVIF...).
 3. Include examples of each format using the `<img>` element with appropriate attributes.
 4. Experiment with setting `width` and `height` attributes to control image size.
