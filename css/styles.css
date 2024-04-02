@@ -7,16 +7,89 @@ img {
 }
 
 .image-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 300px;
-  border: 1px solid #ccc;
-  margin-bottom: 20px;
+  text-align: center;
+  margin: 20px 0;
 }
 
 .image-container img {
   max-width: 100%;
   max-height: 100%;
   object-fit: contain;
+}
+
+/* Estils CSS per al menú de navegació */
+nav {
+  background-color: #333;
+  padding: 10px 0;
+  text-align: center;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+nav ul li a:hover {
+  color: #ffd700; /* Canvia el color al passar el ratolí per sobre */
+}
+
+/* Estils per a la imatge */
+.image-container {
+  width: 300px;
+  margin: 0 auto;
+}
+
+/* Estils per a la llegenda */
+.caption {
+  text-align: center;
+  font-style: italic;
+  margin-top: 10px;
+}
+
+.imatge-centrada {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+p {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Estil per a la galeria d'imatges */
+.image-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 10px;
+  margin: 20px;
+  
+}
+
+.imatge-exercici-3 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }

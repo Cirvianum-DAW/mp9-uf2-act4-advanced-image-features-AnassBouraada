@@ -3,23 +3,39 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Inserció Bàsica d'Imatges</title>
+    <link rel="stylesheet" href="/css/styles.css" />
   </head>
   <body>
+    <nav>
+      <ul>
+        <li><a href="basic_image.html">Exercici 1</a></li>
+        <li><a href="basic_image.html">Exercici 2</a></li>
+        <li><a href="resolution_switching.html">Exercici 3</a></li>
+        <li><a href="image_alignment.html">Exercici 4</a></li>
+        <li><a href="image_alignment.html">Exercici 5</a></li>
+        <li><a href="image_gallery.html">Exercici 6</a></li>
+        <li><a href="figure_picture.html">Exercici 7</a></li>
+        <li><a href="figure_picture.html">Exercici 8</a></li>
+      </ul>
+    </nav>
+
     <h1>Inserció Bàsica d'Imatges</h1>
+    <!-- la imatge ha de estar al centre -->
 
     <img
       src="imatges/platja.jpeg"
       alt="Imatge de un noi a la platja"
       width="500"
       height="700"
+      class="imatge-centrada"
     />
 
     <p>
       L'atribut alt és important per a les imatges perquè proporciona text
       alternatiu que es mostra quan la imatge no es pot carregar o quan està
-      sent accedida per usuaris amb lectors de pantalla. Aquest text proporciona context per a la imatge, millorant
-      l'experiència de l'usuari per a tots els usuaris.
+      sent accedida per usuaris amb lectors de pantalla. Aquest text proporciona
+      context per a la imatge, millorant l'experiència de l'usuari per a tots
+      els usuaris.
     </p>
 
     <h1>Imatges en formats moderns</h1>
@@ -30,6 +46,7 @@
       alt="Imatge de un noi a la en mig de una roca a la platja en format WEBP"
       width="500"
       height="700"
+      class="imatge-centrada"
     />
     <p>
       La imatge en format WEBP té una mida de 500x700 píxels. Aquesta mida és la
@@ -46,6 +63,7 @@
       alt="Imatge de un noi a la en mig de una roca a la platja en format AVIF"
       width="500"
       height="700"
+      class="imatge-centrada"
     />
     <p>
       La imatge en format AVIF també té una mida de 500x700 píxels, igual que la
@@ -56,14 +74,16 @@
       web.
     </p>
 
-    <h1>Diferència entre la mida real de la imatge i els atributs width i height</h1>
+    <h1>
+      Diferència entre la mida real de la imatge i els atributs width i height
+    </h1>
 
     <p>
-      La diferencia entre la mida real de la imatge i els atributs width i height de l'element 
-      img és que els atributs width i height es refereixen a la mida de la imatge tal com es mostrarà 
-      a la pàgina web, mentre que la mida real de la imatge es refereix a la mida de la imatge en el seu format original.
+      La diferencia entre la mida real de la imatge i els atributs width i
+      height de l'element img és que els atributs width i height es refereixen a
+      la mida de la imatge tal com es mostrarà a la pàgina web, mentre que la
+      mida real de la imatge es refereix a la mida de la imatge en el seu format
+      original.
     </p>
-
-
   </body>
 </html>

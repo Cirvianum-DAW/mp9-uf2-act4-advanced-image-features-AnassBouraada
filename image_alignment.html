@@ -1,30 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/styles_map.css">
-  <title>Clickable Image Map</title>
-  <style>
-    img {
-      max-width: 100%; 
-    }
-  </style>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles_map.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="basic_image.html">Exercici 1</a></li>
+        <li><a href="basic_image.html">Exercici 2</a></li>
+        <li><a href="resolution_switching.html">Exercici 3</a></li>
+        <li><a href="image_alignment.html">Exercici 4</a></li>
+        <li><a href="image_alignment.html">Exercici 5</a></li>
+        <li><a href="image_gallery.html">Exercici 6</a></li>
+        <li><a href="figure_picture.html">Exercici 7</a></li>
+        <li><a href="figure_picture.html">Exercici 8</a></li>
+      </ul>
+    </nav>
 
-<h1>Clickable Image Map Example</h1>
+    <h1>Clickable Image Map Example</h1>
 
-<img src="imatges/mapaMudi.avif" usemap="#image-map">
+    <img
+      src="imatges/mapaMudi.avif"
+      usemap="#image-map"
+      class="imatge-exercici-3"
+    />
 
-<map name="image-map">
-    <area alt="Amercia" href="/America" coords="357,446,248,399" shape="rect" >
-    <area alt="Europa" href="Europa" coords="744,359,843,405" shape="rect">
-    <area alt="Asia" href="Asia" coords="957,378,1028,420" shape="rect">
-    <area alt="Africa" href="Africa" coords="673,550,755,587" shape="rect">
-    <area alt="Australia" href="Australia" coords="1070,697,1173,738" shape="rect">
-</map>
+    <map name="image-map">
+      <area
+        alt="Amercia"
+        href="/America"
+        coords="357,446,248,399"
+        shape="rect"
+      />
+      <area alt="Europa" href="Europa" coords="744,359,843,405" shape="rect" />
+      <area alt="Asia" href="Asia" coords="957,378,1028,420" shape="rect" />
+      <area alt="Africa" href="Africa" coords="673,550,755,587" shape="rect" />
+      <area
+        alt="Australia"
+        href="Australia"
+        coords="1070,697,1173,738"
+        shape="rect"
+      />
+    </map>
 
-<p>La propietat max-width ajuda a fer les imatges responsives limitant la seva amplada màxima al seu contenidor. Això significa que les imatges es redimensionen automàticament per adaptar-se a la pantalla, mantenint la seva proporció correcta. D'aquesta manera, les imatges no es desborden ni es distorsionen en dispositius amb diferents amplades de pantalla o en diferents mides de finestra del navegador.</p>
-</body>
+    <p>
+      La propietat max-width ajuda a fer les imatges responsives limitant la
+      seva amplada màxima al seu contenidor. Això significa que les imatges es
+      redimensionen automàticament per adaptar-se a la pantalla, mantenint la
+      seva proporció correcta. D'aquesta manera, les imatges no es desborden ni
+      es distorsionen en dispositius amb diferents amplades de pantalla o en
+      diferents mides de finestra del navegador.
+    </p>
+  </body>
 </html>
