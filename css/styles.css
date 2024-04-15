@@ -85,7 +85,6 @@ img {
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   grid-gap: 10px;
   margin: 20px;
-  
 }
 
 .imatge-exercici-3 {
@@ -97,3 +96,14 @@ img {
 h2 {
   text-align: center;
 }
+
+.imatges-vectorials {
+  margin-left: 30%;
+  width: 40%;
+}
+
+.imatges-vectorials-1 {
+  margin-left: 30%;
+  width: 40%;
+}
+
